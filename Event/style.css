@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Verdana, sans-serif;
+    background:#f8fafc;
+}
+
+/* Header */
+
+header{
+    background:#111827;
+    color:white;
+    padding:20px 40px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+/* Hero */
+
+.hero{
+    text-align:center;
+    color:white;
+
+    padding:140px 20px;
+
+    background:
+    linear-gradient(rgba(0,0,0,.6),
+    rgba(0,0,0,.6)),
+    url("hero.jpg");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:20px;
+}
+
+.hero button{
+    padding:12px 25px;
+    border:none;
+    border-radius:5px;
+    background:#22c55e;
+    color:white;
+    cursor:pointer;
+}
+
+/* Sections */
+
+.about,
+.highlights,
+.speaker,
+.venue{
+    padding:70px 30px;
+    text-align:center;
+}
+
+.about p{
+    max-width:800px;
+    margin:auto;
+    margin-top:20px;
+}
+
+/* Cards */
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.card{
+    background:white;
+    width:220px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+/* Speaker */
+
+.speaker img{
+    width:220px;
+    border-radius:50%;
+    margin:25px 0;
+}
+
+/* Venue */
+
+.venue img{
+    width:80%;
+    max-width:600px;
+    border-radius:10px;
+    margin:20px 0;
+}
+
+/* Footer */
+
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    header{
+        flex-direction:column;
+    }
+
+    nav{
+        margin-top:15px;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+
+    .hero h1{
+        font-size:35px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+}
