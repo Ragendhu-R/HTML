@@ -1,0 +1,72 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Parallax Sections */
+.parallax {
+    height: 100vh;
+    position: relative;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Background Images */
+.bg1 {
+    background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
+}
+
+.bg2 {
+    background-image: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b");
+}
+
+.bg3 {
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+}
+
+.bg4 {
+    background-image: url("https://images.unsplash.com/photo-1518837695005-2083093ee35b");
+}
+
+/* Text on Images */
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+
+    padding: 20px 40px;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    border-radius: 10px;
+}
+
+/* Content Sections */
+.content {
+    padding: 80px 100px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.content p {
+    color: #555;
+    font-size: 18px;
+}
