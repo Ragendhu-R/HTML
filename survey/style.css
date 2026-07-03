@@ -1,0 +1,23 @@
+body{
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+.box{
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    margin: 50px auto;
+    border: 3px solid navy;
+}
+
+h1{
+    color: darkblue;
+    text-align: center;
+}
+
+input[type="submit"]{
+    background-color: green;
+    color: white;
+    padding: 8px;
+}
